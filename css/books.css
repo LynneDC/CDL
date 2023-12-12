@@ -1,0 +1,11 @@
+/* custom.css or any appropriate CSS file */
+
+.pdf-cover-image {
+    width: 30%;
+    max-height: 300px;
+    cursor: pointer;
+    border: 2px solid #ccc; /* Border color and width */
+    border-radius: 8px;   /* Optional: Rounded corners */
+    margin: 10px;         /* Optional: Adjust margin */
+    padding: 10px;        /* Optional: Adjust padding */
+}

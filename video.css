@@ -1,0 +1,12 @@
+.video-container {
+  display: flex;
+  /*justify-content: space-between; /* Adjust as needed */
+ /* align-items: center; /* Align vertically in the center */
+  margin-right: 10px;
+}
+
+/* Adjust video styles as needed */
+.video-container iframe {
+  width: 600px; /* Adjust width as needed */
+  height: 225px; /* Adjust height as needed */
+  padding: 2px;

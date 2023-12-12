@@ -1,0 +1,14 @@
+/* styles.css */
+
+.header-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.date {
+  margin-left: 20px;
+}
+
+.date strong {
+  /* Additional styles for the 'strong' element, if needed */
+}

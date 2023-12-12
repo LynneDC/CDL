@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: white;
+    /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: white;
+    /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: none;
+    /* Blue */
+  }
+}
+
+.illustration img {
+  width: 100%;
+  display: block;
+}
+
+/* contact */
+.contact-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top: 0px;
+  margin: 10px 0;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #ecfafd;
+  margin: 10px 0;
+  
+}
