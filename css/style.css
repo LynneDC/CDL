@@ -1,7 +1,6 @@
 body {
   font-family: 'Raleway', sans-serif;
-  color: #0c0c0c;
-  background-color: none;
+  background-color:inherit;
 }
 
 .layout_margin {
@@ -41,7 +40,7 @@ body {
 }
 
 .heading_container h2::before {
-  content: "";
+  content: "CHRISTIAN DIGITAL LIBRARY";
   width: 100px;
   height: 1px;
   background-color: #8547ca;
@@ -51,24 +50,15 @@ body {
   transform: translateX(-50%);
   bottom: 0;
 }
+sub_page .hero_area {
+  height: auto;
+}
 
 .hero_next_section-margin {
   margin-top: 100px;
 }
 
-/*header section
-.hero_area {
-  height: 100vh;
-  position: relative;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #f2f7fd), color-stop(45%, #1d1e31));
-  background: linear-gradient(to right, #f2f7fd 50%, #1d1e31 45%);
-}
-*/
-.sub_page .hero_area {
-  height: auto;
-}
-
-.header_section .container-fluid {
+ .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
 }
@@ -84,7 +74,7 @@ body {
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
   padding: 0px 25px;
-  color: #0b5613fff;
+  color: #0b613fff;
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
@@ -113,11 +103,9 @@ body {
   transition: all .3s;
   position: absolute;
   border-radius: 5px;
-  /* position changed to absolute */
   top: 0;
-  /* add top property */
   left: 10;
-  /* add left property */
+  
   margin-top: 5px;
 
 
@@ -149,7 +137,7 @@ body {
   transform: rotate(-45deg) translateY(-17px);
 }
 
-/* Style for the overlay */
+* Style for the overlay 
 .overlay {
   height: 100%;
   width: 0;
@@ -271,141 +259,23 @@ a:focus {
 }
 
 /*end header section*/
-.slider_section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: calc(100% - 75px);
-  padding: 50px 0;
-  background-image: url('https://i.imgur.com/WnBcHtB.jpg');
-  background-size: 100% auto;
-  height: 250px;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  color: #fff;
-  background-position: top 1px;
-}
-
-/*
-.slider_section .row {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: center;
-}
-
-.slider_section .row .col-md-7,
-.slider_section .row .col-md-5 {
-  position: unset;
-}
-*/
-.slider_section .carousel {
-  position: unset;
-}
 
 
-
-.slider_section .detail-box h1 {
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 0.5rem;
-  text-align: center;
-  font-size: 30px;
-  width: full;
-  display: flex;
-
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: -20px;
-
-
-}
-
-.slider_section .detail-box a {
-  display: inline-block;
-  padding: 10px 60px;
-  background-color: #1d1e31;
-  color: #fefdfc;
-  border-radius: 0;
-  border: 1px solid #1d1e31;
-  text-transform: uppercase;
-  margin-top: 80px;
-  margin-right: 50px
-}
-
-.slider_section .detail-box a:hover {
-  background-color: transparent;
-  color: #1d1e31;
-}
-
-.slider_section .img-box img {
-  height: 100%;
-}
-
-.slider_section .carousel-control-prev,
-.slider_section .carousel-control-next {
-  width: 60px;
-  height: 60px;
-  border-radius: 100%;
-  left: 50%;
-  opacity: 1;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  background-repeat: no-repeat;
-}
-
-.slider_section .carousel-control-prev {
-  background-color: #1d1e31;
-  top: 80px;
-  background-image: url(../images/left-arrow.png);
-  background-position: 14px center;
-}
-
-.slider_section .carousel-control-next {
-  background-color: #f2f7fd;
-  top: initial;
-  bottom: 150px;
-  background-image: url(../images/right-arrow.png);
-  background-position: 35px center;
-}
-
-.slider_section .carousel-indicators {
-  margin: 0;
-  bottom: 50%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  left: 25px;
-  -webkit-transform: translateY(50%);
-  transform: translateY(50%);
-}
-
-.slider_section .carousel-indicators li {
-  margin: 0;
-  width: 30px;
-  height: 30px;
-  background-color: #1d1e31;
-  opacity: 1;
-}
-
-.slider_section .carousel-indicators li.active {
-  background-color: #8547ca;
-}
-
-
+/* Feature section */
 .feature_section {
-  background-color: #fafafa;
+  background-image: url("../images/bg-01.jpg");
+  
+  
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  background-image: url()"images/back-bible.png";
   font-family: 'Poppins', sans-serif;
   margin-bottom: 0px;
 }
 
 .feature_section .box {
-  background-color: #fffff;
+  background-color: none;
   padding: 70px;
   margin: 0;
   max-width: 100%;
@@ -424,6 +294,7 @@ a:focus {
 
 .feature_section .box .head-box .img-box {
   margin-right: 15px;
+  
 }
 
 .feature_section .box .head-box .img-box svg {
@@ -432,7 +303,7 @@ a:focus {
   fill: 8547ca;
 }
 
-.feature_section .box .head-box h6 {
+.feature_section .box .head-box h3 {
   font-weight: bold;
   font-size: 22px;
   display: block;
@@ -452,20 +323,23 @@ a:focus {
 .feature_section .box .detail-box p {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  color: #8547ca;
 }
 
-.feature_section .box:hover {
-  background-color:8547ca;
+.feature_section .box  {
+  background-color: none;
   color: #fefdfc;
 }
 
+
+
 .feature_section .box:hover .head-box .img-box svg {
-  fill: #fefdfc;
+  fill: #12a85d;
   width: 100%;
 }
 
 .feature_section a {
-  display: inline-block;
+  display: block;
   padding: 5px;
   background-color: 8c60bd;
   color: #fefdfc;
@@ -478,7 +352,11 @@ a:focus {
   background-color: transparent;
   color: 8c60bd;
 }
-.feature_section .imag {
+.feature_section .main-img-box {
+  display: inline;
+  position: relative;;
+  top: 0;
+  background-color: #010103;
  
   
 }
@@ -503,7 +381,7 @@ a:focus {
 
 .video-card {
   width: calc(33.33% - 10px);
-  /* Adjust the width as needed */
+  /* Adjust the width as needed*/
   margin-bottom: 20px;
 }
 
@@ -512,7 +390,7 @@ a:focus {
   height: 1%;
   border-radius: 2px;
 }
-/* Add your custom styles here */
+/* Add your custom styles here*/
 .video-container {
   display: flex;
   justify-content: space-between;
@@ -529,22 +407,26 @@ a:focus {
   border-radius: 8px;
 }
 
-
+/* download section */
   .download_section {
     font-family: 'Poppins', sans-serif;
+    background-color: #000;
   }
 
   .download_section .box {
-    background-color: #333456;
-    padding: 15px;
+    background-color: #1111bb;
+    padding: 1px;
     margin: 45px 0;
-    color: #fefdfc;
+    color: #2b098a8e;
+
+    
   }
 
   .download_section .box .head-box {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    position: relative;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -552,22 +434,22 @@ a:focus {
 
   .download_section .box .head-box .img-box {
     margin-right: 15px;
-    width: 60px;
-    height: 60px;
-    border: 1px solid #fefdfc;
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(168, 15, 15);
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: inline; 
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
+    justify-content: left;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
   }
 
   .download_section .box .head-box .img-box img {
-    width: 30px;
+    width: 100%;
   }
 
   .download_section .box .head-box h6 {
@@ -588,21 +470,21 @@ a:focus {
     display: inline-block;
     padding: 10px 40px;
     background-color: #8c60bd;
-    color: #fefdfc;
+    color: #6bdb0f;
     border-radius: 0;
     border: 1px solid #8c60bd;
     margin-top: 25px;
   }
 
   .download_section .btn-1:hover {
-    background-color: transparent;
+    background-color: rgb(231, 227, 227);
     color: #8c60bd;
   }
 
   .download_section .btn-2 {
     display: inline-block;
     padding: 10px 40px;
-    background-color: #323559;
+    background-color: #ec20e2;
     color: #fefdfc;
     border-radius: 0;
     border: 1px solid #323559;
@@ -611,26 +493,28 @@ a:focus {
 
   .download_section .btn-2:hover {
     background-color: transparent;
-    color: #323559;
+    color: #e7e9ff;
   }
 
   .download_section .main-img-box {
     display: -webkit-box;
-    display: -ms-flexbox;
+    display: -ms-flexbox; 
     display: flex;
+    width: 100%;
+    
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
+    justify-content: cover;
   }
 
   .download_section .main-img-box img {
-    width: 75%;
+    width: 100%;
     -webkit-filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.37));
     filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.37));
   }
 
   .about_section {
-    background-image: url(../images/about-bg.jpg);
+    background-image: url(../images/back-bible.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -654,6 +538,7 @@ a:focus {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
+    
   }
 
   .about_section .detail-box.b-1 {
@@ -665,8 +550,8 @@ a:focus {
   .about_section .detail-box.b-1 a {
     display: inline-block;
     padding: 10px 40px;
-    background-color: #8c60bd;
-    color: #fefdfc;
+    background-color: #6620ac;
+    color: #b96714;
     border-radius: 0;
     border: 1px solid #8c60bd;
   }
@@ -946,8 +831,6 @@ a:focus {
     color: #fefdfc;
   }
 
-  .footer_section a {
-    color: #fefdfc;
-  }
-
-  /*# sourceMappingURL=style.css.map */
+.footer_section a {
+  color: #fefdfc;
+}

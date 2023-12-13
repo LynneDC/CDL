@@ -1020,9 +1020,12 @@ pre code {
     max-width: 25%;
   }
   .col-md-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 100%;
+       
+    max-width: auto;
+    display: flex;
+    justify-content: space-between;
+
+    
   }
   .col-md-5 {
     -ms-flex: 0 0 41.666667%;
