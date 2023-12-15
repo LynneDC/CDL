@@ -15,8 +15,15 @@
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   body {
-    background-color: none;
+    background-color:none;
     /* Yellow */
+  }
+  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+    color: #941b1b;
+    text-align: flex;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+            
   }
 }
 
