@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>CHRISTIAN DIGITAL LIBRARY</title>
+
 </head>
 <body>
 <h1>
@@ -10,5 +10,21 @@ CHRISTIAN DIGITAL LIBRARY
 <p>
 <a href="https://christian-digitall-library.vercel.app/">CHRISTIAN DIGITAL LIBRARY</a>
 </p>
+<h3>
+DESCRIPTION
+<h3>
+<p>
+This project is about building a website that will host all Christian materials and multimedia.
+This website is available for everyone but the main target is for anyone who wants to learn about Christianity
+This will solve a problem I personally experienced when I was searching for a particular topic on both google and Chabot. My search result was not selective and I had to search more to find the results I wanted. This became time consuming for me.
+</p>
+<h1>FEATURES</h3>
+<ul>
+<li> has videos, audios books and notes</li>
+<li>Has highlight, share, playback and fast forward</li>
+<li>Allow user in-app interaction</li>
+<li>Track user progress on certain content</li>
+</ul>
+
 </body>
 </html>
