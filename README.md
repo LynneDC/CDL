@@ -8,7 +8,7 @@
 CHRISTIAN DIGITAL LIBRARY
 </h1>
 <p>
-<a href="https://www.christiandigitallibrary.org/">CHRISTIAN DIGITAL LIBRARY</a>
+<a href="https://christian-digitall-library.vercel.app/">CHRISTIAN DIGITAL LIBRARY</a>
 </p>
 </body>
 </html>
